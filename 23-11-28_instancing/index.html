@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(20, 20, 20);
+        }
+
+        #placer {
+            display: grid;
+            place-items: center;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        canvas {
+            width: 512px;
+            height: 512px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="placer">
+        <canvas id="canvas" width=512 height=512 tabindex="0"></canvas>
+    </div>
+</body>
+
+<!-- <script src="./10-start.js" type="module"></script> -->
+<!-- <script src="./20-copies.js" type="module"></script> -->
+<!-- <script src="./30-copies-buffer.js" type="module"></script> -->
+<!-- <script src="./40-instances-manual.js" type="module"></script> -->
+<script src="./50-instances-glance.js" type="module"></script>
+<!-- <script src="./60-instances-id.js" type="module"></script> -->
+
+</html>
